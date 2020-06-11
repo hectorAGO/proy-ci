@@ -13,7 +13,7 @@ class CalculadoraTest {
 	}
 	@Test
 	void testSum() {
-		assertEquals(3, ca.sum(1, 1));
+		assertEquals(2, ca.sum(1, 1));
 		assertEquals(0, ca.sum(5, -5));
 	}
 	@Test
